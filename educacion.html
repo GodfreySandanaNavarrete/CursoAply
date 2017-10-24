@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.svg" width="350px" height="200px">
+	</header>
+	<h1>Hoja de Vida</h1>
+	<h2>Godfrey Eladio Sandaña Navarrete</h2>
+	<h3>20-10-2017 Dalcahue - Chile</h3>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+	<h2>Educación</h2>
+	<table border="1">
+		<tr>
+			<td style="text-align: center;">Año</td>
+			<td style="text-align: center;">Institución</td>
+			<td style="text-align: center;">Lugar</td>
+			<td style="text-align: center;">¿Culminó?</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">2015</td>
+			<td style="text-align: center;">Universidad UCINF</td>
+			<td style="text-align: center;">Providencia Santiago - Chile</td>
+			<td style="text-align: center;">Si</td>
+		</tr>
+	</table>
+	<form autocomplete="on" name="formulario de estudios">
+		<fieldset>
+			<legend>Agregar Estudios</legend>
+				<label for="año">Año</label>
+				<select id="año">
+					<option>1999</option>
+					<option>2000</option>
+					<option>2001</option>
+				</select></br>
+				<label for="instituacion">Institución:</label>
+				<input type="text" id="institucion" required="true"></br>
+				<label for="lugar">Lugar:</label>
+				<textarea id="lugar"></textarea></br>
+				<label for="culmino">¿Culminó?</label>
+				<input type="radio" name="culmino" id="culmino" value="Si"> Si
+  				<input type="radio" name="culmino" id="culmino" value="No"> No</br>
+  				<input type="submit" name="enviar" value="Enviar">
+  		</fieldset>
+	</form>
+	<footer>
+		<nav>
+			<ul>
+				<li><b>Email:</b> <a href="mailto:gsandana@blueshell.cl">gsandana@blueshell.cl</a></li>
+				<li><b>Teléfono:</b> +56994507869</li>
+				<li><b>Dirección:</b> Los zorzales S\N Dalcahue - Chile</li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
